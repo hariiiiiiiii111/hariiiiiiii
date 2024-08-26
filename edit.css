@@ -1,0 +1,95 @@
+
+.h1{
+    background-color: rgb(54, 164, 54);
+}
+
+.fi{
+    padding-top: 30px;
+    background-color: rgb(49, 172, 49);
+    width: 100%;
+    
+    margin:0px;
+    box-sizing: border-box;
+    display:inline-block;
+    border-radius: 20px;
+    box-shadow:10px;
+
+}
+
+.se{
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    width: 100%;
+    border-style: outset;
+    border-radius: 20px ;
+
+    
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    background-color: rgb(67, 67, 216);
+    overflow: hidden;
+    border-radius: 20px;
+   
+  
+    
+    
+  }
+li{
+    float: left;
+    
+    
+}
+  
+li a{
+    font-style: oblique;
+    color: white;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding:15px 16px;
+}
+li input{
+    position: relative;
+    left: 900px;
+   margin-top: 18px;
+   font-style: oblique;
+   border-style:dotted;
+    
+}
+
+.se img{
+
+    width: 440px;
+    display: inline-block;
+    padding: 20px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+   } 
+   
+.se p{
+    
+    float: left;
+   
+    padding: 10px  210px;
+    font-size: x-large ;
+    font-family: "Lucida Console", "Courier New", monospace;
+    
+    
+    
+}
+.se img:hover{
+
+   transform: scale(1.1);
+}
+
+
+  
+  
+
+
+
